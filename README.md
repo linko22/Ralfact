@@ -4,4 +4,4 @@ Real Factorio
 Как обновить код/добавить файлы в мод
 -------------------------------------
 
-zip -r Realfact_0.0.1.zip Realfact_0.0.1
+zip -r Realfact_0.0.1.zip Realfact_0.0.1 -x *.git*

@@ -1,3 +1,4 @@
+require('bootstrap/data')
 
 --for _,recipe in pairs(data.raw.recipe) do
 --  recipe.enabled = false
