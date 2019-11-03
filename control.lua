@@ -63,3 +63,23 @@ end)
 --end
 
 --/c game.player.force.recipes["tin-plate"].enabled = false
+
+local function regenerate_entity(ore)
+  if game.entity_prototypes[ore] and game.entity_prototypes[ore].autoplace_specification then
+    game.regenerate_entity(ore)
+  end
+end
+
+remote.add_interface("Relfact",
+{
+  Regenerate = function()
+--    for i, player in ipairs(game.players) do
+--      player.print("Regenerating all ores now, this may take some time...")
+--    end
+    regenerate_entity("barite-ore")
+    for i, player in ipairs(game.players) do
+      player.print("All ores successfully regenerated!")
+    end
+  end
+}
+)

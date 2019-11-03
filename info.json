@@ -7,5 +7,5 @@
   "homepage": "",
   "description": "The Realfact to build in early game for free.",
   "factorio_version": "0.17",
-  "dependencies": ["base >= 0.17"]
+  "dependencies": [ "base >= 0.17", "stdlib >= 1.0.0" ]
 }

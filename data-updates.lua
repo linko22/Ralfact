@@ -1,0 +1,5 @@
+--for i, ore in pairs(Realfact.ores) do
+--  if ore.enabled then
+--    Realfact.lib.resource.generate_updates_stage(ore)
+--  end
+--end
