@@ -7,6 +7,13 @@ data:extend {
         icon = "__Realfact__/graphics/technology/item-group.png",
         icon_size = 64
     },
+    -----------------------------PLATES----------------
+    {
+        type = "item-subgroup",
+        name = "Realfact-rawores-plates",
+        group = "Realfact-rawores",
+        order = "a-f"
+    },
     -----------------------------SPECIFIC METALS----------------
     {
         type = "item-subgroup",

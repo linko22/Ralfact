@@ -33,6 +33,9 @@ require("prototypes.ores.barite")
 --require("prototypes.gem-ore")
 -- #### END ORES
 
+--(( RECIPES ))--
+require("prototypes/recipes/recipes-barite")
+
 --for i, ore in pairs(Realfact.ores) do
 --  Realfact.lib.resource.generate_data_stage(ore)
 --end

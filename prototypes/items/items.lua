@@ -17,3 +17,13 @@ ITEM {
     order = "a",
     stack_size = 500
 }
+ITEM {
+    type = "item",
+    name = "barite-plate",
+    icon = "__Realfact__/graphics/icons/barite-plate.png",
+    icon_size = 32,
+    flags = {},
+    subgroup = "Realfact-rawores-plates",
+    order = "a",
+    stack_size = 500
+}
